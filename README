@@ -1,0 +1,19 @@
+Global setup:
+ Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email ppohltm@rose-hulman.edu
+      
+Next steps:
+  mkdir Lab2-pohltm
+  cd Lab2-pohltm
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:pohltm/Lab2-pohltm.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:pohltm/Lab2-pohltm.git
+  git push -u origin master
